@@ -118,6 +118,7 @@ const f = jonas.calcAge;
 f();
 */
 
+/*
 // var firstName='faiz';
 const jonas = {
   firstName: 'jonas',
@@ -163,3 +164,20 @@ var addArrow = (a, b) => {
   return a + b;
 };
 addArrow(2, 5, 8);
+*/
+
+let age = 25;
+let oldAge = age;
+age = 26;
+console.log(age);
+console.log(oldAge);
+
+const me = {
+  name: 'Faiz',
+  age: 25,
+};
+
+const friend = me;
+friend.age = 27;
+console.log('Friend', friend);
+console.log('Me', me);
